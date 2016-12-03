@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:gravity="center"
+    android:id="@+id/menuItem"
+    android:clickable="true"
+    android:background="@drawable/item_selector">
+
+    <ImageView
+        android:id="@+id/itemIcon"
+        android:layout_width="130dp"
+        android:layout_height="96dp"
+        android:src="@mipmap/ic_menu_defaut"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        >
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:textSize="18sp"
+            android:lines="1"
+            android:text="主席红烧肉"/>
+
+        <TextView
+            android:id="@+id/itemDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:lines="4"
+            android:textColor="@color/colorTextGray"
+            android:text="主席红烧肉属于川菜中的一道经典菜，它是四川、重庆许多地区许多人家接待重要客人才做的一道菜。主要原料是猪肉，口味是香，工艺是烧"
+            android:layout_below="@+id/itemTitle" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="3dp"
+            android:background="@mipmap/iv_delete_red"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">因吹丝汀</string>
+    <string name="editHint">搜索菜谱</string>
+    <string name="search">搜索</string>
+    <string name="collection">收藏</string>
+    <string name="byVariety">菜品</string>
+    <string name="byMethod">方法</string>
+    <string name="byStyle">菜系</string>
+    <string name="byPeopleGroup">人群</string>
+    <string name="byFunction">功能</string>
+    <string name="ingredient">用料</string>
+    <string name="method">做法</string>
+    <string name="loadMore">没有更多了</string>
+    <string name="delete">删除</string>
+    <string name="no_collection">你并没有任何收藏</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRecyclerViewItem"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="onClick">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_item"
+        android:text="@string/app_name"
+        android:drawableEnd="@mipmap/arc"
+        android:padding="@dimen/padding"
+        />
+
+    <include layout="@layout/divider"/>
+
+</LinearLayout>
